@@ -2,9 +2,11 @@
 
 #What is the 10 001st prime number?
 
-testnum = 1
-primes=0
-while primes < 10:
+testnum = 0
+primes=1
+max_primes=10001
+while primes < max_primes-1:
+    testnum+=1
     if testnum %2 == 0:
         for i in range(2,int(testnum/2)):#check the testnum+1
             if testnum % i == 0:
@@ -17,6 +19,6 @@ while primes < 10:
                 break
             if i == testnum/2-0.5:
                 primes += 1
-    testnum+=1
+    
 
-print(testnum)
+print(testnum-1)
