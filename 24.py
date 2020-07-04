@@ -8,4 +8,4 @@ while n< 1000000:
       n+=1
    i +=1
    
-print(n)
+print(n-1)
