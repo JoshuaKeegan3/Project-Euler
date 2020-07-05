@@ -1,4 +1,6 @@
 # Find the 1,000,000th lexicographic permutation of the integer set 0-9
+# While I understand this can be done with itertools and permutations and while I understand and have memoried the code for permutations,
+# I wanted to give my first solution (no matter how slow it is)
 n = 0
 i = 0
 numbers = set([i for i in range(10)])
